@@ -92,7 +92,7 @@ function findbigone(num1,num2){
     let result = Math.max(num1,num2);
     return result;
 }
-console.log(findbigone(12,50));
+// console.log(findbigone(12,50));
 function reversetext(text){
     let result = "";
   for(let i = text.length-1 ;i>=0 ;i--){
@@ -124,5 +124,5 @@ function checkspalindrome(text,text2){
     result,result2
    ]
 }
-let result = checkspalindrome("madam","level");
-console.log(result);
+// let result = checkspalindrome("madam","level");
+// console.log(result);
